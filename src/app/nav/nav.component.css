@@ -1,0 +1,23 @@
+
+.main-menu {
+  font-weight: 200;
+  font-size: 1.2em;  
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.menu-item {
+  color: rgba(255, 255, 255, 0.781);
+  transition: .2s;
+  text-decoration: none !important;
+  
+}
+
+.menu-item:hover {
+  color: rgb(255, 255, 255);
+  transition: .2s;
+}
